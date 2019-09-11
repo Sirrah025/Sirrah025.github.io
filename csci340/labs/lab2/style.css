@@ -8,6 +8,13 @@
   color:#fdfefe;
 }
 
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 #mac{
   background-image: url("https://free-images.com/md/ec08/macaroni_mac_cheese_cheese.jpg");
 }
