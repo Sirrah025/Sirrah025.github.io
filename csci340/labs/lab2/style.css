@@ -1,10 +1,21 @@
-.background{
-  color:#c19a6b;
+.body{
+  background-color:#c19a6b;
 }
-
 .jumbotron{
   display: flex;
   align-items: center;
   background-image: url("https://lh3.googleusercontent.com/5sc-Ny5SNossrvoqExj06xPZzTcdBip4gz784T2NOqXlpGYrHqzYqSaIAOvVewERjpQ2J3U=s122")
   color:#fdfefe;
+}
+
+#mac{
+  background-image: url("https://free-images.com/md/ec08/macaroni_mac_cheese_cheese.jpg");
+}
+
+#garlic{
+  background-image: url("https://free-images.com/md/3333/pasta_orichetti_pasta_broccoli.jpg");
+}
+
+#Cheesy{
+  background-image: url("https://free-images.com/md/df31/fussilini_cheese_baked_pasta.jpg");
 }
