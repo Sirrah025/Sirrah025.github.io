@@ -1,10 +1,12 @@
-.body{
+body{
   background-color:#c19a6b;
+  font-family: 'Quicksand', sans-serif;
 }
-.jumbotron{
+
+jumbotron{
   display: flex;
   align-items: center;
-  background-image: url("https://lh3.googleusercontent.com/5sc-Ny5SNossrvoqExj06xPZzTcdBip4gz784T2NOqXlpGYrHqzYqSaIAOvVewERjpQ2J3U=s122")
+  background-image: url("https://free-images.com/md/ec08/macaroni_mac_cheese_cheese.jpg")
   color:#fdfefe;
 }
 
@@ -16,7 +18,7 @@ section.container .row {
 }
 
 #mac{
-  background-image: url("https://free-images.com/md/ec08/macaroni_mac_cheese_cheese.jpg");
+  background-image: url("https://free-images.com/md/fb46/mac_cheese_mac_macaroni.jpg");
 }
 
 #garlic{
