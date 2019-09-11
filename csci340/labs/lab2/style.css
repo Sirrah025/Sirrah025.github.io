@@ -1,3 +1,7 @@
+.background{
+  color:#c19a6b;
+}
+
 .jumbotron{
   display: flex;
   align-items: center;
