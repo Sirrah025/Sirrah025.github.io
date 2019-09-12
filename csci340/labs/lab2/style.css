@@ -24,6 +24,12 @@ h6{
   border-color: black;
 }
 
+p{
+  color: white;
+  border-style: solid;
+  border-width:thin;
+  border-color: black;
+}
 #mac{
   background: url("https://free-images.com/md/fb46/mac_cheese_mac_macaroni.jpg");
 }
