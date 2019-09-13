@@ -6,7 +6,6 @@ body{
 jumbotron{
   display: flex;
   align-items: center;
-  background-image: url("https://free-images.com/md/ec08/macaroni_mac_cheese_cheese.jpg")
   color:#fdfefe;
 }
 
@@ -17,6 +16,41 @@ section.container .row {
   justify-content: center;
 }
 
+#x{
+  padding-left: 25%;
+}
+
+#Pages{
+  margin-left: 5%;
+}
+
+#Summary{
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+#recipes{
+  border-style: hidden;
+  border-width: thin;
+  background-color:#f9423a;
+}
+
+#Our{
+  color:#ffffff;
+}
+
+#social{
+  margin-left: 90px;
+  padding-left: 15px;
+}
+
+h3{
+  border-style:hidden;
+  border-width:2px;
+  background-color:#000000;
+  color:#ffffff;
+}
+
 h6{
   color: white;
 }
@@ -25,42 +59,7 @@ p{
   color: white;
 }
 
-#mac{
-  background: url("https://free-images.com/md/fb46/mac_cheese_mac_macaroni.jpg");
-}
-
-#garlic{
-  background: url("https://free-images.com/md/3333/pasta_orichetti_pasta_broccoli.jpg");
-}
-
-#Cheesy{
-  background: url("https://free-images.com/md/df31/fussilini_cheese_baked_pasta.jpg");
-}
-
-#Baked{
-  background: url("https://free-images.com/md/acd6/mac_cheese_pasta_food.jpg");
-}
-
-#Cacio{
-  background: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Pici.jpg");
-}
-
-#Four{
-  background: url("https://free-images.com/md/4ef1/pasta_noodles_italian_dinner.jpg");
-}
-
-#Vegetarian{
-  background: url("https://free-images.com/md/f9fe/lasagna_food_dinner_lunch.jpg");
-}
-
-#Alfredo{
-  background: url("https://free-images.com/md/6428/grilled_chicken_with_pasta.jpg");
-  background-repeat: no-repeat;
-  bakground-size: auto;
-}
-
-#Carbonara{
-  background: url("https://free-images.com/md/6511/spaghetti_carbonara_bacon_onions.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
+footer{
+  background-color: black;
+  margin-top: 100px;
 }
