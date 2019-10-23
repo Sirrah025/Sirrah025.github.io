@@ -17,5 +17,5 @@ $( document ).ready(function(){
     console.log(color);
   }
 
-  $("#clicker").click(onButtonClick)
+  $("#light").click(onButtonClick)
 });
