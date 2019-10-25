@@ -8,10 +8,10 @@ $( document ).ready(function(){
       color = 0;
     }
     if (color == 1){
-      $("#light").css("background-color","yellow");
+      $("#light").css("background-color","green");
     }
     if (color == 2){
-      $("#light").css("background-color","green");
+      $("#light").css("background-color","yellow");
     }
     color++
     console.log(color);
