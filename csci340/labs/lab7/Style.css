@@ -1,11 +1,12 @@
 body{
-  background-color: #f5f5f5;
+  background-color: #8B92F2;
   font-family: 'Noto Sans', sans-serif;
 }
 
 jumbotron{
   display: flex;
   align-items: left;
+  color:#fdfefe;
 }
 
 section.container .row {
@@ -13,4 +14,45 @@ section.container .row {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+#relief{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-style: hidden;
+  padding-bottom: 10px;
+  color:#fdfefe;
+}
+
+#clicker{
+  border-style: hidden;
+}
+
+#joke{
+  margin-top: 20px;
+  border-style: hidden;
+  padding: 10px;
+  color:#fdfefe;
+}
+
+#funnyClicker{
+  border-style: hidden;
+}
+
+#setupClicker{
+  margin-left: 280px;
+  border-style: hidden;
+}
+
+#pup{
+  margin-top: 60px;
+  border-style: hidden;
+  padding: 20px;
+  color:#fdfefe;
+}
+
+#pupClicker{
+  border-style: hidden;
 }
