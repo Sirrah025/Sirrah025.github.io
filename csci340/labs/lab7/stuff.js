@@ -17,7 +17,21 @@ $(document).ready(function(){
       url: "https://official-joke-api.appspot.com/random_joke",
       success: function(results){
         $(".funny").text(results["setup"]);
+        $(".punchline").text(results["punchline"]);
       },
+      error: function(xhr,status,error) {
+        console.log(error);
+      }
+    });
+  });
+  $("#setupClicker").click(function(){
+    $.ajax({
+      datatype:"json",
+      url: "https://official-joke-api.appspot.com/random_joke",
+      success: function(results){
+        $(".funny").text(results["setup"]);
+        $(".punchline").text(" ");
+        },
       error: function(xhr,status,error) {
         console.log(error);
       }
