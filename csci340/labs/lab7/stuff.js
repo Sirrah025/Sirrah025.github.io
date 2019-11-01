@@ -13,6 +13,11 @@ $(document).ready(function(){
   });
   $("#funnyClicker").click(function(){
     $.ajax({
+      datatype: "json",
+      url: "https://official-joke-api.appspot.com/random_joke",
+      success: function(results){
+        $(".funny").text(results["setup"]);
+      },
       error: function(xhr,status,error) {
         console.log(error);
       }
